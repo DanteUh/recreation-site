@@ -1,0 +1,438 @@
+body {
+    font-family: 'Abel', sans-serif !important;
+    font-weight: thin 100 !important;
+}
+video {
+	max-width: 100%;
+}
+.btn {
+   border-radius: 0px !important; 
+}
+li {
+    display: inline;
+}
+
+/* Header */
+.nav {
+    height: 40px;
+    background: white;
+    border-bottom: solid 1px lightgray;
+}
+#social li, #footer-social li {
+    float: left;
+}
+#social img {
+    width: 15px;
+    margin: 10px;
+}
+#social img, #footer-social img {
+    -webkit-filter: grayscale(1);
+    transition: all 0.4s ease 0s;
+}
+#social img:hover, #footer-social img:hover {
+    -webkit-filter: grayscale(0);
+}
+#social li {
+    padding: 2px;
+}
+#social #facebook-link {
+    border-right: solid 1px lightgray;
+    border-left: solid 1px lightgray;
+}
+#link-menu {
+    margin-top: 10px;
+    margin-right: 3%;
+}
+#link-menu li {
+    padding: 10px;
+    border-left: solid 1px lightgray;
+}
+#link-menu li a {
+    color: darkgray;
+    font-size: 12px;
+    transition: all 0.4s ease 0s;
+}
+#link-menu li a:hover {
+    text-decoration: none;
+    color: black;
+}
+.header nav {
+    margin-top: 45px;
+    height: 40px;
+    width: 100%;
+    background: transparent;
+    position: fixed;
+    z-index: 1;
+    transition: all 0.4s ease 0s;
+}
+.header nav #logo {
+    display: none;
+    height: 40px;
+    margin-top: 5px;
+}
+#link-menu-2 {
+    margin-right: 2%;
+    margin-top: 15px;
+}
+#link-menu-2 li {
+    margin: 5px;
+}
+#link-menu-2 li a {
+    opacity: 0.7;
+    font-size: 14px;
+    color: white;
+    transition: all 0.4s ease 0s;
+}
+#link-menu-2 li a:hover {
+    text-decoration: none;
+    opacity: 1;
+}
+#search-box {
+    width: 90px;
+    height: 50px;
+}
+#search-btn {
+    margin-top: 15px;
+    border-left: solid 1px darkgray;
+    font-size: 18px;
+}
+#search-btn li a {
+    opacity: 0.7;
+    color: white;
+    transition: all 0.4s ease 0s;
+}
+#search-btn li a:hover {
+    opacity: 1;
+}
+.nav-scroll {
+    height: 50px !important;
+    width: 100%;
+    background: white !important;
+    position: fixed;
+    z-index: 1;
+    margin-top: 40px !important;
+    border-bottom: solid 1px lightgray;
+    transition: all 0.4s ease 0s;
+}
+.nav-scroll-menu {
+    color: black !important;
+    transition: all 0.4s ease 0s;
+}
+/* Jumbotron */
+.jumbotron {
+    height: 62%;
+    width: 100%;
+    margin-bottom: 0px !important;
+    background: transparent !important;
+}
+.jumbotron .container {
+    margin-left: 15%;
+}
+.jumbotron h1, .jumbotron p {
+    position: fixed;
+    z-index: -1;
+    color: white !important;
+}
+.jumbotron h1 {
+    margin-top: 10%;
+}
+.jumbotron p {
+    margin-top: 15%;
+}
+.jumbotron .row {
+    margin-top: 18%;
+    position: fixed;
+    z-index: -1;
+}
+#vid-btn, #stream-btn {
+    border-radius: 0px !important;
+    padding: 7px;
+    width: 120px;
+    height: 40px;
+    background: transparent;
+    font-size: 17px;
+    color: white;
+    transition: all 0.4s ease 0s;
+}
+#vid-btn {
+    border: solid 1px gray;
+}
+#stream-btn {
+    background: #555 !important;
+    border: solid 1px #555;
+}
+#vid-btn:hover {
+    background: transparent;
+    border-color: white;
+}
+#video-container {
+	width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -100;
+}
+#video-bg {
+    position: relative;
+    width: auto;
+    min-width: 100%;
+    height: auto;
+    background-size: cover;
+}
+video {
+    max-width: 100%;
+    height: auto;
+}
+#arrow-down {
+    position: absolute;
+    margin-top: 27%;
+    margin-left: 33%;
+    font-size: 25px;
+    width: 45px;
+    height: 45px;
+    padding: 8.5px;
+    border-radius: 10000px;
+    border: solid 1px transparent;
+    transition: all 0.4s ease 0s;
+}
+#arrow-down a {
+    color: white;
+    -webkit-filter: opacity(0.5);
+}
+#arrow-down a:hover {
+    -webkit-filter: opacity(1);
+    transition: all 0.4s ease 0s;
+}
+#arrow-down:hover {
+    border: solid 1px white;
+}
+
+/* Small Header */
+.small-header {
+    background: url("../images/Team_Sodapoppin_Psynaps-bullet_4K-web.jpg") no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 370px;
+    color: white;
+}
+.small-header .container {
+    margin-left: 15%;
+    height: 100%;
+}
+.small-header h1 {
+    margin-top: 10%;
+    font-size: 60px;
+}
+.small-header a {
+    margin-top: 15px;
+    font-size: 18px;
+    padding: 9px;
+    transition: all 0.4s ease 0s;
+}
+.small-header .btn {
+    border-radius: 0px !important;
+    height: 45px;
+    width: 200px;
+}
+#recent {
+    background: url("../images/raw-1080-60fps-2-08951.jpg") no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#intros {
+    background: url("../images/thumb-0-00-00-00.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 300px;
+}
+#intros h1 {
+    margin-top: 7%;
+}
+#intros .btn {
+    width: 110px;
+}
+#wow {
+    background:  url("../images/wow-bg.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 300px;
+    margin-top: -15%;
+}
+#wow h1 {
+    margin-top: 5%;
+}
+#wow p {
+    font-size: 22px;
+}
+
+/* Posts */
+.posts {
+    background: white;
+    height: 800px;
+}
+.posts ul {
+    margin-left: -3%;
+    margin-top: 2%;
+}
+.posts li p, .posts li a {
+    font-size: 17px;
+    font-weight: bold !important;
+    transition: all 0.4s ease 0s;
+}
+.posts .container ul p {
+    display: inline;
+}
+.posts ul a:hover {
+    text-decoration: none;
+    color: black;
+}
+.posts .row {
+    font-family: sans-serif !important;
+    margin-bottom: 3%;
+}
+.posts .row img {
+    width: 250px;
+    margin-bottom: 5%;
+}
+.posts .row a {
+    text-decoration: none;
+    font-size: 16px;
+    transition: all 0.4s ease 0s;
+}
+.posts .row a:hover {
+    color: black;
+}
+.posts .row p {
+    margin-top: 7%;
+    color: gray;
+}
+
+/* Bottom Links */
+.bottom-links {
+    background: white;
+    text-align: center;
+    height: 400px;
+}
+.bottom-links .row {
+    height: 300px;
+    margin-top: 5%;
+}
+.bottom-links .row a, .rounded {
+    text-decoration: none;
+    transition: all 0.4s ease 0s;
+}
+.rounded {
+    background: #ecebe9;
+    border-radius: 1000px;
+    width: 100px;
+    height: 100px;
+    margin-left: 30%;
+}
+.bottom-links .row a .rounded:hover {
+    background: dodgerblue;
+    color: white;
+}
+.bottom-links .row span {
+    font-size: 30px;
+    margin-top: 35%;
+}
+.bottom-links .row a p {
+    margin-top: 15%;
+    font-size: 20px;
+    font-weight: bold;
+}
+.bottom-links .row a p:hover {
+    color: black;
+}
+#link-text {
+    font-size: 17px;
+}
+
+/* Memeber bar */
+#member-bar {
+    background: #ecebe9;
+    height: 125px;
+    text-align: center;
+}
+#member-bar .glyphicon {
+    font-size: 25px;
+    margin-top: -7px;
+    color: white;
+}
+#member-bar .btn {
+    height: 50px;
+    width: 130px;
+    padding: 9px;
+}
+#member-bar ul {
+    margin-top: 3%;
+}
+#member-bar li {
+    margin: 10px;
+}
+#member-bar ul li h4 {
+    display: inline;
+    font-size: 25px;
+    font-weight: bold;
+}
+#member-bar ul li a {
+    margin-top: -1%;
+    font-size: 20px;
+    transition: all 0.4s ease 0s;
+}
+
+/* Footer */
+.footer-outer {
+    background: #252525;
+    height: 535px;
+    color: #777774;
+    font-size: 17px;
+    font-weight: bold;
+}
+.footer-outer .row {
+    height: 450px;
+    margin-top: 5%;
+}
+.footer-outer .row .col-md-3 a{
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    color: white;
+    text-decoration: none;
+    transition: all 0.4s ease 0s;
+}
+.footer-outer .row a:hover{
+    color: dodgerblue;
+}
+.footer {
+    background: #252525;
+    color: #777774;
+    height: 65px;
+    border-top: solid 1px #3a3a3a;
+}
+#footer-social {
+    margin-left: 75%;
+}
+#footer-social li {
+    margin-top: -10px;
+    margin-left: 7px;
+}
+.footer p {
+    margin-top: 12px;
+    margin-left: 20%;
+    float: left;
+}
+#footer-social img {
+    width: 25px;
+    margin-top: 80%;
+}
